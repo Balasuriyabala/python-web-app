@@ -7,4 +7,7 @@ RUN pip install -r requirements.txt
 
 COPY . .  
 
-CMD ["python", "app.py"]
+CMD ["python", "app.py"]    
+
+# Expose port 5000 for the web application
+EXPOSE 5000
