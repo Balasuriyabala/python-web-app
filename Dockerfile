@@ -10,4 +10,4 @@ COPY . .
 CMD ["python", "app.py"]    
 
 # Expose port 5000 for the web application
-EXPOSE 5000
+EXPOSE 5000000
