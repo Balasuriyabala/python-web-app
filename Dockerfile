@@ -9,5 +9,4 @@ COPY . .
 
 CMD ["python", "app.py"]    
 
-# Expose port 5000 for the web application
 
